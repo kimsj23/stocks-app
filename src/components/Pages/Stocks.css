@@ -1,0 +1,49 @@
+.stockListing {
+  border-bottom: 1px solid gray;
+}
+
+.stocktitle {
+  color: #fff;
+  padding: 0 1%;
+}
+
+.line {
+  padding-bottom: 1rem;
+  border-bottom: 1px solid #fff;
+}
+
+.button {
+  margin-bottom: 1rem;
+  margin: 0 1%;
+}
+
+.headers {
+  color: #fff;
+  border-collapse: collapse;
+  border: 1px solid white;
+}
+
+.negative {
+  color: red;
+}
+
+.positive {
+  color: green;
+}
+
+.table {
+  table-layout: fixed;
+  width: 100%;
+  list-style: none;
+  color: #fff;
+  border-collapse: collapse;
+}
+
+.trendingdata {
+  text-align: center;
+}
+
+.tickermline {
+  text-align: left;
+  padding-left: 1rem;
+}
