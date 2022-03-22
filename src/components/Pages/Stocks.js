@@ -7,7 +7,7 @@ function Stocks() {
 
   const options = {
     method: "GET",
-    url: "http://localhost:8000/",
+    url: "http://localhost:5000/",
     params: { region: "US" },
   };
 
@@ -20,7 +20,7 @@ function Stocks() {
 
       setStockList(exchData);
     });
-  }, []); //Request will run again on change of 'StockList' from  the click of the refresh button
+  }, []);
 
   return (
     <div>
