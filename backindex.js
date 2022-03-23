@@ -1,4 +1,4 @@
-const port = process.env.PORT || 5000;
+/*const port = process.env.PORT || 5000;
 const express = require("express");
 const cors = require("cors");
 const axios = require("axios");
@@ -28,3 +28,5 @@ app.get("/api", (req, res) => {
     res.json(response.data);
   });
 });
+
+*/
