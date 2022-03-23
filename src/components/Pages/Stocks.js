@@ -7,10 +7,13 @@ function Stocks() {
 
   const options = {
     method: "GET",
-    url: "http://localhost:5000/",
+    url: "https://yh-finance.p.rapidapi.com/market/get-trending-tickers",
     params: { region: "US" },
+    headers: {
+      "x-rapidapi-host": "yh-finance.p.rapidapi.com",
+      "x-rapidapi-key": process.env.REACT_APP_RAPID_API_KEY,
+    },
   };
-
   useEffect(() => {
     Axios.request(options).then((response) => {
       const resData = response.data.finance.result[0].quotes;
