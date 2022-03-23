@@ -2,7 +2,7 @@ const port = process.env.PORT || 5000;
 const express = require("express");
 const cors = require("cors");
 const axios = require("axios");
-
+const path = require("path");
 require("dotenv").config();
 
 const app = express();
@@ -11,7 +11,9 @@ app.listen(port, () => console.log(`server is running on port ${port}`));
 
 app.use(cors());
 
-app.get("/", (req, res) => {
+app.use(express.static(path.resolve(__dirname, 'src/build'))
+
+app.get("/api", (req, res) => {
   const options = {
     method: "GET",
     url: "https://yh-finance.p.rapidapi.com/market/get-trending-tickers",
