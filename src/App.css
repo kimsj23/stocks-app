@@ -7,4 +7,6 @@ body {
   overflow-y: auto;
   background-image: url("./images/stocks.jpg");
   background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
 }
