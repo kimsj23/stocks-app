@@ -6,6 +6,5 @@ body {
   overflow-x: hidden;
   overflow-y: auto;
   background-image: url("./images/stocks.jpg");
-  background-size: cover;
-  background-position: cover cover;
+
 }

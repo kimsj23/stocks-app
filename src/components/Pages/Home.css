@@ -2,19 +2,20 @@
   display: grid;
   justify-content: center;
   font-family: Arial;
+  margin-left: 3rem;
 }
 
 .hometitle {
   color: #fff;
   font-size: 4rem;
+
   animation: slide-up 1s ease;
 }
 
 .hometitle2 {
   color: #fff;
-  margin-top: 0px;
-  margin-left: 3rem;
-  font-size: 1.3rem;
+  font-size: 1.1rem;
+  padding-left: 4rem;
   animation: slide-up 1s ease;
 }
 
@@ -45,8 +46,18 @@
   text-decoration: none;
   font-weight: bold;
   color: #000;
+
 }
 
 .homebutton:hover {
   background-color: #fff;
+}
+
+@media (max-width: 768px) {
+  .homebutton {
+    display: none;
+  }
+  .hometitle2 {
+    padding-left: 0px;
+  }
 }
