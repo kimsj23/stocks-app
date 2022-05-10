@@ -57,7 +57,11 @@
   .homebutton {
     display: none;
   }
+  .hometitle {
+    font-size: 2.75rem;
+  }
   .hometitle2 {
     padding-left: 0px;
+    font-size: 0.9rem;
   }
 }

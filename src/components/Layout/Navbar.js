@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "./Navbar.css";
+import Hamburger from "./Hamburger";
 
 function Navbar() {
   return (
@@ -24,6 +25,7 @@ function Navbar() {
             </Link>
           </li>
         </ul>
+        <Hamburger />
       </nav>
     </header>
   );
