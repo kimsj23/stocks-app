@@ -43,3 +43,14 @@
 .stock-bcolor {
   background-color: rgb(17, 25, 25);
 }
+
+
+@media (max-width: 768px) {
+  .ticker-mobile {
+    font-size: 0;
+  }
+
+  br {
+    display: none;
+  }
+}

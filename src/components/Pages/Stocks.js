@@ -44,7 +44,7 @@ function Stocks() {
               <td className="tickermline">
                 {stock.symbol}
                 <br />
-                {stock.longName}
+                <span className="ticker-mobile">{stock.longName}</span>
               </td>
               <td>
                 {stock.fullExchangeName === "NasdaqGS"
