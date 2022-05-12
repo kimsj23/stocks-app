@@ -2,13 +2,13 @@
   display: grid;
   justify-content: center;
   font-family: Arial;
-  margin-left: 3rem;
+
 }
 
 .hometitle {
   color: #fff;
   font-size: 4rem;
-
+  margin: 5rem 0 2rem 0;
   animation: slide-up 1s ease;
 }
 
@@ -16,6 +16,7 @@
   color: #fff;
   font-size: 1.1rem;
   padding-left: 4rem;
+  margin-bottom: 1.5rem;
   animation: slide-up 1s ease;
 }
 
@@ -56,12 +57,15 @@
 @media (max-width: 768px) {
   .homebutton {
     display: none;
+  
   }
   .hometitle {
     font-size: 2.75rem;
+    margin-top: 4rem;
   }
   .hometitle2 {
-    padding-left: 0px;
+    padding: 0;
     font-size: 0.9rem;
+    margin-top: 2rem;
   }
 }

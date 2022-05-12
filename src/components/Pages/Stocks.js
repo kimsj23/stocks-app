@@ -28,7 +28,7 @@ function Stocks() {
   return (
     <div>
       <h1 className="stocktitle">Trending Stocks</h1>
-      <table className="table">
+      <table className="table stock-bcolor">
         <tr className="headers">
           <th>Ticker</th>
           <th>Exchange</th>
