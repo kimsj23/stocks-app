@@ -29,9 +29,9 @@
 .navitems {
   color: #fff;
   text-decoration: none;
-  font-size: 1.1rem;
+  font-size: 18px;
   font-family: Arial;
-  margin-left: 2rem;
+  margin-left: 40px;
 }
 
 .navitems:hover {
@@ -54,7 +54,7 @@
     align-items: center;
     background-color: black;
     left: 0px;
-    top: 3rem;
+    top: 50px;
     width: 100%;
     height: 35%;
 
